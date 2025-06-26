@@ -1,8 +1,10 @@
 {
-  "name": "ocr-pdf-proxy",
+  "name": "ocr-proxy",
   "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
   "dependencies": {
-    "tesseract.js": "^4.0.2",
-    "micro": "^9.3.4"
+    "formidable": "^2.1.1",
+    "tesseract.js": "^2.1.5"
   }
 }
