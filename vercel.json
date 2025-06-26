@@ -10,6 +10,10 @@
     {
       "src": "/ocr",
       "dest": "api/ocr.js"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
     }
   ]
 }
