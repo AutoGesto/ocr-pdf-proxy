@@ -5,5 +5,11 @@
       "src": "api/ocr.js",
       "use": "@vercel/node"
     }
+  ],
+  "routes": [
+    {
+      "src": "/ocr",
+      "dest": "api/ocr.js"
+    }
   ]
 }
