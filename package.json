@@ -1,10 +1,10 @@
 {
   "name": "ocr-proxy",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {},
   "dependencies": {
     "formidable": "^2.1.1",
-    "tesseract.js": "^2.1.5"
+    "tesseract.js": "^2.1.5",
+    "micro": "^9.3.4"
   }
 }
