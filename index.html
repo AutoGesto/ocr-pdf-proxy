@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OCR Test</title>
+</head>
+<body>
+  <h2>Subir PDF para procesar OCR</h2>
+  <form action="/api/ocr" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="application/pdf" required />
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
