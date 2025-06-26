@@ -1,16 +1,13 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "api/ocr.js", "use": "@vercel/node" }
-  ],
   "routes": [
     {
-      "src": "/ocr",
+      "src": "/api/ocr",
+      "methods": ["POST"],
       "dest": "api/ocr.js"
     },
     {
       "src": "/",
-      "dest": "/public/index.html"
+      "dest": "/index.html"
     }
   ]
 }
