@@ -7,7 +7,7 @@
     "tesseract.js": "^4.0.2",
     "micro": "^9.3.4",
     "googleapis": "^115.0.0",
-    "cloudmersive-ocr-api-client": "^2.2.5",
+    "cloudmersive-ocr-api-client": "^3.3.2",
     "openai": "^3.2.1"
   }
 }
