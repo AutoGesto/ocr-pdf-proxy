@@ -6,6 +6,11 @@
       "dest": "api/ocr.js"
     },
     {
+      "src": "/api/process",
+      "methods": ["POST"],
+      "dest": "api/process.js"
+    },
+    {
       "src": "/",
       "dest": "/index.html"
     }
